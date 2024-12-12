@@ -379,7 +379,9 @@ Version:	1.1
   .slider h1.entry-title {
     font-size: 13px;
   }
-
+  .header .topbar li {
+    text-align: center;
+  }
   .header.sticky {
   }
   .header.sticky .header-bottom {
