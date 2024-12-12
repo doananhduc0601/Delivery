@@ -16,6 +16,7 @@ Version:	1.1
 	+ Search
 * Hero Slider CSS
 * Schedule CSS
+* Video CSS
 * Feautes CSS
 * Fun Facts CSS
 * Why Choose CSS
@@ -886,6 +887,22 @@ h1.entry-title {
 ===============================*/
 
 /*=============================
+	Start Video CSS
+===============================*/
+.Video iframe {
+  height: 100vh;
+  width: 100%;
+}
+.Video p {
+  font-size: 16px;
+  margin: 10px;
+  font-style: italic;
+}
+/*=============================
+	End Video CSS
+===============================*/
+
+/*=============================
 	Start Feautes CSS
 ===============================*/
 .Feautes {
@@ -1036,8 +1053,23 @@ h1.entry-title {
   width: 50px;
   background: #1a76d1;
 }
+.why-choose .choose-left h4 {
+  font-size: 18px;
+}
+.why-choose .choose-left {
+  font-size: 16px;
+  color: #000;
+}
+
+.why-choose .choose-left li {
+  list-style: circle;
+  color: #000;
+  margin: 0 50px;
+}
+.why-choose .choose-left h4,
 .why-choose .choose-left p {
-  margin-bottom: 35px;
+  margin: 10px 0 15px;
+  color: #000;
 }
 .why-choose .choose-left .list {
 }
@@ -1060,6 +1092,9 @@ h1.entry-title {
   padding-left: 2px;
   margin-right: 16px;
 }
+.why-choose .choose-left .get-quote {
+  text-align: center;
+}
 /* Start Faq CSS */
 .why-choose {
   background: #fff;
@@ -1067,8 +1102,8 @@ h1.entry-title {
 .why-choose .choose-right {
   height: 100%;
   width: 100%;
-  background-image: url("img/video-bg.jpg");
-  background-size: cover;
+  /* background-image: url("https://thietkeweb.biz/vanchuyenotovn/giphy-2.gif"); */
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -1191,6 +1226,10 @@ h1.entry-title {
 ============================*/
 .portfolio {
   background: #fdfdfd;
+}
+.portfolio h2 {
+  color: #ff0000;
+  font-size: 40px;
 }
 .portfolio .single-pf {
   position: relative;
