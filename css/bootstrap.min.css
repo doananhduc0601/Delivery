@@ -690,7 +690,7 @@ pre code {
     max-width: 720px;
   }
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .header .logo {
     margin-left: 90px;
     max-width: 150px;
@@ -702,7 +702,7 @@ pre code {
   .header .logo img {
     max-width: 150px;
   }
-}
+} */
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
