@@ -1054,6 +1054,9 @@ h1.entry-title {
   width: 50px;
   background: #1a76d1;
 }
+.why-choose .video-image {
+  text-align: center;
+}
 .why-choose .choose-left h4 {
   font-size: 18px;
 }
@@ -1234,6 +1237,8 @@ h1.entry-title {
 }
 .portfolio .single-pf {
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .portfolio .single-pf img {
   height: 100%;
@@ -1257,6 +1262,15 @@ h1.entry-title {
 .portfolio .single-pf:hover:before {
   opacity: 0.7;
   visibility: visible;
+}
+.portfolio .container-fluid .box-content {
+  /* background-color: #000; */
+  padding: 10px;
+  text-align: center;
+}
+.portfolio .container-fluid .box-content h2 {
+  font-size: 18px;
+  padding: 10px 0;
 }
 .portfolio .single-pf .btn {
   color: #1a76d1;

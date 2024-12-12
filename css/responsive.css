@@ -70,6 +70,7 @@ Version:	1.1
     font-weight: 500;
     padding: 20px 4px;
   }
+
   .header .nav li .dropdown {
     width: 200px;
     left: -20px;
@@ -123,6 +124,10 @@ Version:	1.1
   }
   .header.style2 .right-bar {
     padding-top: 15px;
+  }
+  .slider h1.entry-title {
+    padding: 10px 15px;
+    font-size: 13px;
   }
   .slider .single-slider {
     height: 380px;
@@ -370,6 +375,11 @@ Version:	1.1
 }
 /* Mobile Screen */
 @media only screen and (max-width: 767px) {
+  .slider span,
+  .slider h1.entry-title {
+    font-size: 13px;
+  }
+
   .header.sticky {
   }
   .header.sticky .header-bottom {
